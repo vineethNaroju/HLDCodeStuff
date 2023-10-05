@@ -1,0 +1,47 @@
+KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
+
+
+./kafka-topics.sh --list --bootstrap-server localhost:9092
+./kafka-replica-verification.sh --broker-list localhost:9092
+
+
+replicas =>
+replicas =>
+localhost : 9092
+localhost : 9092
+[Lorg.apache.kafka.common.Node;@343f53c6
+0
+[Lorg.apache.kafka.common.Node;@b25cd73
+0
+producer:kafka-producer-network-thread | producer-2,topic:shapes,partition:0,offset:59,timestamp:1696543614509,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-3,topic:shapes,partition:0,offset:57,timestamp:1696543614509,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-1,topic:shapes,partition:0,offset:58,timestamp:1696543614509,serializedKeySize:-1,serializedValueSize:-1
+consumer:consumer_thread_0,key:null,value:circle,partition:0,offset:57,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:circle,partition:0,offset:58,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:circle,partition:0,offset:59,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+producer:kafka-producer-network-thread | producer-3,topic:shapes,partition:0,offset:62,timestamp:1696543619523,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-2,topic:shapes,partition:0,offset:61,timestamp:1696543619523,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-1,topic:shapes,partition:0,offset:60,timestamp:1696543619523,serializedKeySize:-1,serializedValueSize:-1
+consumer:consumer_thread_0,key:null,value:square,partition:0,offset:60,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:square,partition:0,offset:61,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:square,partition:0,offset:62,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+producer:kafka-producer-network-thread | producer-1,topic:shapes,partition:0,offset:64,timestamp:1696543624523,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-2,topic:shapes,partition:0,offset:63,timestamp:1696543624523,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-3,topic:shapes,partition:0,offset:65,timestamp:1696543624523,serializedKeySize:-1,serializedValueSize:-1
+consumer:consumer_thread_0,key:null,value:rectangle,partition:0,offset:63,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:rectangle,partition:0,offset:64,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:rectangle,partition:0,offset:65,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+producer:kafka-producer-network-thread | producer-1,topic:shapes,partition:0,offset:66,timestamp:1696543629525,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-2,topic:shapes,partition:0,offset:67,timestamp:1696543629525,serializedKeySize:-1,serializedValueSize:-1
+producer:kafka-producer-network-thread | producer-3,topic:shapes,partition:0,offset:68,timestamp:1696543629525,serializedKeySize:-1,serializedValueSize:-1
+consumer:consumer_thread_0,key:null,value:triangle,partition:0,offset:66,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:triangle,partition:0,offset:67,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+consumer:consumer_thread_0,key:null,value:triangle,partition:0,offset:68,topic:shapes,leaderEpoch:0,headers:RecordHeaders(headers = [], isReadOnly = false)
+
+
+
+i was able to seek to beginning
+
+https://chat.openai.com/c/5919b3ac-2871-419a-97d0-d1e1c2c15e70
+
+How to setup kafka with multiple brokers ?
