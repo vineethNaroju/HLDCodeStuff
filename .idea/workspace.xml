@@ -5,19 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4ebe32f-bacf-4ad6-b3d2-23a6ff4e90b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/src/main/java/org/example/ConsumerRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/src/main/java/org/example/ProducerRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kafka/src/main/java/org/example/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/cassandracode/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/cassandracode/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/cassandracode/data.cql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/cassandracode/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HLDCodeStuff/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/org/example/ConsumerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/kafkacode/ConsumerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/kafkacode/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/org/example/ProducerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/kafkacode/ProducerRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/src/main/java/org/example/readme" beforeDir="false" afterPath="$PROJECT_DIR$/HLDCodeStuff/src/main/java/org/example/kafkacode/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/target/classes/org/example/ConsumerRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/target/classes/org/example/ConsumerRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/target/classes/org/example/ProducerRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kafka/target/classes/org/example/ProducerRunnable.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockerExecCommands">
+    <ExecCommand>
+      <option name="command" value="cqlsh" />
+    </ExecCommand>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,10 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="300" />
+    </hideBySeverity>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2WM2I1zXJApCtLlUJmJ09qdb0jy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,21 +74,36 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "/Users/narojv/Documents/GitHub/KafkaFlinkStuff",
+    "last_opened_file_path": "/Users/narojv/GitHub/HLDCodeStuff",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "cassandra"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="Kafka" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kafka/src/main/java/org/example/kafkacode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Entry">
+    <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.cassandracode.Entry" />
+      <module name="HLDCodeStuff" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.cassandracode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,8 +111,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.kafkacode.Main" />
+      <module name="Kafka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.kafkacode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cassandracode/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="HLDCodeStuff/src/main/java/org/example/cassandracode/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Entry" />
+        <item itemvalue="Docker.cassandracode/Dockerfile" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -85,6 +156,7 @@
       <workItem from="1696528046319" duration="311000" />
       <workItem from="1696529327311" duration="106000" />
       <workItem from="1696529440801" duration="11111000" />
+      <workItem from="1703961792815" duration="6456000" />
     </task>
     <servers />
   </component>

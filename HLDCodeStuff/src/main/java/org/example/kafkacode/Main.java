@@ -1,4 +1,4 @@
-package org.example;
+package org.example.kafkacode;
 
 import org.apache.kafka.clients.admin.*;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
